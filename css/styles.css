@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  background-color: #e5e6e8;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  height: 300px;
+  background: url("../imagenes/BUENOS-AIRES.jpg")
+    center;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* hacer un container para ubicar esto */
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 3em;
+  margin-bottom: 0;
+  margin-left: 1em;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 5px;
+  margin-left: 3em;
+}
+
+.subtitle3 {
+  background: #020202;
+  padding: 25px;
+  color: #ffffff;
+  
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+}
+
+
+li {
+  list-style: none;
+  border-radius: 2px;
+  font-size: 1em;
+  border: solid 1px;
+  display: flex;
+}
+
+li a:hover {
+  color: white;
+}
+
+.fa {
+  font-size: 2em;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  border: solid;
+  background: black;
+  
+  
+}
+
+.title-text {
+  display: block;
+  text-align: center;
+}
+
+.enfoque {
+  margin-bottom: 3em;
+}
+
+/*nav flex*/
+.menu {
+  font-family: sans-serif;
+  padding: 10px;
+  display: flex;
+  /*background-color*/
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: flex-end;
+  height: 70px;
+  border: solid;
+  background-color: #000000;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+}
+
+.item {
+  padding: 10px;
+  border: solid 1px;
+  margin: 3px;
+}
+
+li: hover {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.galery {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cuerpo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+}
+
+.experiencia {
+  margin-bottom: 3em;
+  
+}
